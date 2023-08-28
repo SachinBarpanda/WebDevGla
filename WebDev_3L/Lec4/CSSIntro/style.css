@@ -1,0 +1,33 @@
+/* body{
+    border: 2px solid seagreen;
+}
+
+p{
+    background-color: chartreuse;
+    border: 2px solid tomato;
+} */
+
+/* #naman{
+    color: yellow;
+}
+
+#deepak{
+    font-size: 50px;
+}
+
+.nikhil{
+    border: 2px solid red;
+    background-color: aqua;
+} */
+
+/* a[href="http://www.google.com"]{
+    color: red;
+} */
+
+body{
+    border: 2px solid seagreen;
+}
+
+*{
+    border: 2px solid rebeccapurple;
+}
