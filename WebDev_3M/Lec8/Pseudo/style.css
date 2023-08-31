@@ -1,0 +1,77 @@
+/* .pseudo{
+    background-color: bisque;
+}
+
+.pseudo:hover{
+    background-color: teal;
+}
+
+.input{
+    background-color: orchid;
+}
+
+.input:hover{
+    background-color: red;
+} */
+
+/* a:active{
+    background-color: darkmagenta;
+    font-size: 50px;
+} */
+/* 
+ a:visited{
+    
+    text-decoration: none;    
+}
+a:visited {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+  } */
+/* 
+  li:nth-of-type(3n+2){
+    background-color: aqua;
+  } */
+
+/*   
+  li:nth-of-type(6){
+    background-color: aqua;
+  }
+
+  
+  li:nth-of-type(9){
+    background-color: aqua;
+  } */
+
+  /* li:first-child{
+    background-color: aquamarine;
+  }
+
+  
+  li:last-child{
+    background-color: aquamarine;
+  }
+
+  input:focus{
+    background-color: red;
+  } */
+/* 
+  p::first-letter{
+    font-size: 50px;
+  }
+  .bigClass::first-line{
+    font-size: large;
+    color: blue;
+  } */
+  /* span::first-letter{
+    font-size: 50px;
+  } */
+
+  span::before{
+    content: "this is span &";
+    font-size: 40px;
+  }
+  span::after{
+    font-size: 70px;
+    content: '\1F4F1';
+    content: '\2191';
+  }

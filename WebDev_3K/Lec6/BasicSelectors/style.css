@@ -1,0 +1,19 @@
+/* p{
+    border: 2px solid gold;
+} */
+
+#abhisek{
+    font-family: monospace;
+}
+
+.dhruv{
+    background-color: royalblue;
+}
+
+a[href="www.google.com"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    border: 2px solid red;
+}

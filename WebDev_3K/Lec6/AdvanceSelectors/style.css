@@ -1,0 +1,25 @@
+/* div section p{
+    color: brown;
+} */
+
+/* div>section>p{
+    color: red;
+} */
+
+/* 
+li+h4{
+    background-color: purple;
+}
+
+h4+li{
+    background-color: aqua;
+} */
+
+
+li~h4{
+    background-color: purple;
+}
+
+h4~li{
+    background-color: aqua;
+}

@@ -1,0 +1,12 @@
+/* a[href^="http"]{
+    background-color: aqua;
+} */
+/* 
+a[href$="com"]{
+    background-color: lightcoral;
+} */
+
+a[href*="google"]{
+    background-color: aquamarine;
+}
+
