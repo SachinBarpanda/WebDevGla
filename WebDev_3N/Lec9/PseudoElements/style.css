@@ -1,0 +1,44 @@
+p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+p::first-line{
+    background-color: tan;
+    opacity: 0.5;
+}
+span::first-line{
+    background-color: tan;
+    opacity: 0.5;
+}
+
+span::before{
+    font-size: 50px;
+    color: yellowgreen;
+    content: 'HELLO' ;
+    content: '\1F4F1';
+}
+span::after{
+    font-size: 50px;
+    color: yellowgreen;
+    content: 'HELLO' ;
+}
+/* 
+a[href="https://google.org"]{
+    font-size: 50px;
+} */
+/* a[href^="https"]{
+    font-size: 50px;
+    color: teal;
+    text-decoration: none;
+} */
+
+/* a[href$="com"]{
+    font-size: 20px;
+    color: teal;
+    text-decoration: none;
+} */
+a[href*="google"]{
+    font-size: 20px;
+    color: teal;
+    text-decoration: none;
+}

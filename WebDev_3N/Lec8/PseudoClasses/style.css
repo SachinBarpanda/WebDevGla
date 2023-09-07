@@ -1,0 +1,66 @@
+/* input{
+    background-color: bisque;
+}
+
+input:hover{
+    background-color: orchid;
+} */
+
+/* a:active{
+    font-size: 40px;
+    color: red;
+} */
+
+/* a:visited{
+    color: aqua;
+} */
+
+/* li:nth-of-type(odd){
+    background-color: plum;
+} */
+
+/* li:nth-of-type(even){
+    background-color: plum;
+} */
+
+/* li:first-child{
+    background-color: bisque;
+}
+li:last-child{
+    background-color: bisque;
+} */
+
+li:nth-of-type(3n+2){
+    background-color: lightcoral;
+}
+
+input:focus{
+    background-color: lightcyan;
+    font-family: monospace;
+
+}
+
+/* p::first-letter{
+    font-size: 50px;
+    color: darkcyan;
+} */
+
+
+/* p::first-line{
+    font-size: 50px;
+    color: darkcyan;
+} */
+
+span::first-line{
+    font-size: 50px;
+    color: darkcyan;
+}
+
+span::after{
+    content: '\1F4F1';
+}
+
+
+span::before{
+    content: '\1F4F1';
+}

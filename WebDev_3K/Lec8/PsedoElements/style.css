@@ -1,0 +1,23 @@
+/* p::first-letter{
+    font-size: 60px;
+    color: red;
+} */
+p::first-line{
+    font-size: 60px;
+    color: red;
+}
+
+span::first-line{
+    font-size: 60px;
+    color: red;
+}
+span::after{
+    font-size: 150px;
+    content:'\1F4F1';
+}
+
+
+span::before{
+    font-size: 50px;
+    content:'\1F4F1';
+}

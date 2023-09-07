@@ -1,0 +1,45 @@
+/* input{
+    background-color: blanchedalmond;
+}
+
+input:hover{
+    background-color: palevioletred;
+} */
+/* 
+a:active{
+    font-size: 50px;
+} */
+
+/* a:visited{
+    color: orchid;
+} */
+
+/* li:nth-of-type(4){
+    background-color: wheat;
+}
+
+li:nth-of-type(6){
+    background-color: wheat;
+} */
+/* li:nth-of-type(even){
+    background-color: wheat;
+} */
+/* li:nth-of-type(odd){
+    background-color: wheat;
+} */
+
+/* li:nth-of-type(3n+2){
+    background-color: lightpink;
+} */
+
+li:first-child{
+    background-color: bisque;
+}
+
+li:last-child{
+    background-color: bisque;
+}
+
+input:focus{
+    background-color: teal;
+}

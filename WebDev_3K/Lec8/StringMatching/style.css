@@ -1,0 +1,24 @@
+/* a[href^="https"]{
+    background-color: blueviolet;
+} */
+/* 
+a[href$="com"]{
+    color: teal;
+}
+a[href$="org"]{
+    color: yellow;
+} */
+/* 
+a[href*="google"]{
+    color: yellow;
+} */
+
+/* a[href="https://www.google.com"]{
+    background-color: blueviolet;
+} */
+
+ul>li{
+    color: red;
+    background-color: thistle;
+    border: 2px solid rebeccapurple;
+}

@@ -1,0 +1,36 @@
+/* section div {
+    background-color: palegreen;
+} */
+
+/* section article div {
+    background-color: palegreen;
+} */
+
+/* section>article>div{
+    
+    background-color: aqua;
+} */
+
+/* section div{
+    background-color: aqua;
+} */
+
+/* p+h4{
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+}
+
+h4+p{
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+} */
+
+/* p~h4{
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+} */
+
+h4~p{
+    font-size: 50px;
+    border: 2px solid rebeccapurple;
+}

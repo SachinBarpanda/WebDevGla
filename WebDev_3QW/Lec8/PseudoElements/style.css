@@ -1,0 +1,30 @@
+/* p::first-letter{
+    font-size: 50px;
+    color: aqua;
+} */
+/* p::first-line{
+    background-color: forestgreen;
+}
+
+span::first-line{
+    background-color: aquamarine;
+} */
+/* span::after{
+    content: '\00A9';
+}
+span::before{
+    font-size: 100px;
+    content:'\1F4F1';
+} */
+
+/* a[href^="https"]{
+    color: violet;
+    font-size: 50px;
+    text-decoration: none;
+} */
+
+[href$="org"]{
+    color: violet;
+    font-size: 50px;
+    text-decoration: none;
+}

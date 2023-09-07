@@ -1,0 +1,7 @@
+a{
+    background-color: lightcoral;
+    font-size: 60px;
+}
+a:hover{
+    background-color: magenta;
+}

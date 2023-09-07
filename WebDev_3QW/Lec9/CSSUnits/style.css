@@ -1,0 +1,14 @@
+div{
+    height: 50vh;
+    width: 300px;
+    /* width: 50%; */
+    /* width: 50vw; */
+    background-color: palegreen;
+}
+/* ul>li{
+    font-size: 2em;
+} */
+li{
+    /* font-size: 2em; */
+    font-size: 2rem;
+}

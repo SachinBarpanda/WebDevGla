@@ -1,0 +1,42 @@
+/* a{
+    background-color: aquamarine;
+    font-size: 60px;
+}
+
+a:hover{
+    background-color: magenta;
+}
+a:active{
+    background-color: wheat;
+    border: 2px solid turquoise;
+} */
+a{
+    text-decoration: none;
+    font-size: 60px;
+}
+
+a:visited{
+    color:orangered;
+    background-color: yellow;
+}
+/* li:nth-of-type(even){
+    background-color: blue;
+}
+
+
+li:nth-of-type(odd){
+    background-color: red;
+} */
+
+li:nth-of-type(3n+3){
+    background-color: mediumseagreen;
+}
+/* 
+li:first-child{
+    background-color: teal;
+}
+
+
+li:last-child{
+    background-color: olivedrab;
+} */

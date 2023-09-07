@@ -1,0 +1,15 @@
+/* p+h3{
+    background-color: crimson;
+}
+
+h3+p{
+    background-color: blueviolet;
+} */
+
+p~h3{
+    background-color: cyan;
+}
+
+h3~p{
+    background-color: cadetblue;
+}

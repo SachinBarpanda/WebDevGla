@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 200px;
+    /* border: 12px dotted red; */
+    /* border: 12px dashed red; */
+    /* border: 12px solid red; */
+    border-top: 12px solid red;
+    border-left: 12px solid blue;
+    border-right: 12px solid green;
+    border-bottom: 12px solid yellow;
+    background-color: teal;
+}

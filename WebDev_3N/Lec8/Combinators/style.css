@@ -1,0 +1,26 @@
+/* section p{
+    background-color: aqua;
+}
+section div p{
+    background-color: aqua;
+} */
+
+/* section>div>p{
+    background-color: aqua;
+} */
+/* 
+p+h4{
+    background-color: bisque;
+}
+
+h4+p{
+    background-color: blueviolet;
+} */
+/* p~h4{
+    background-color: bisque;
+}
+
+h4~p{
+    background-color: blueviolet;
+} */
+

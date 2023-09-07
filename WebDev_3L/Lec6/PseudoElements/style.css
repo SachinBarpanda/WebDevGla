@@ -1,0 +1,44 @@
+/* p::first-letter{
+    font-size: 40px;
+    color: brown;
+} */
+
+/* p::first-line{
+    background-color: aquamarine;
+} */
+
+/* span::first-line{
+    background-color: bisque;
+} */
+span::after{
+    content: 'Hello 123';
+    font-size: 30px;
+    color: rebeccapurple;
+}
+
+span::before{
+    content: 'Hello 123';
+    font-size: 30px;
+    color: rebeccapurple;
+}
+/* 
+a[href^="https"]{
+    font-size: 30px;
+    color: red;
+} */
+
+a[href$="com"]{
+    font-size: 30px;
+    color: red;
+}
+
+a[href*="google"]{
+    font-size: 30px;
+    color: palegreen;
+}
+
+ul>li{
+    color: blueviolet;
+    border: 2px solid firebrick;
+    background-color: aqua;
+}
