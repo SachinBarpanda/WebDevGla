@@ -1,0 +1,13 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: #45ff12;
+} */
+
+
+div{
+    width: 100px;
+    height: 100px;
+    /* background-color:rgb(10,10,250); */
+    background-color:rgba(10,10,250,0.5);
+}

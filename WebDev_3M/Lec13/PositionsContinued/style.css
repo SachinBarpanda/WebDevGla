@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+}
+/* .fixed #middle{
+    top: 10px;
+    position: fixed;
+} */
+.sticky{
+    height: 500px;
+}
+
+.sticky #middle{
+    position: sticky;
+    top: 1px;
+}

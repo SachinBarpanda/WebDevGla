@@ -1,0 +1,19 @@
+ul>li{
+    color: red;
+    background-color: bisque;
+    border: 2px solid orchid;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    /* background-color: #ff1111 ; */
+    /* background-color: #11ab11 ; */
+    /* background-color: #1100ab ; */
+    /* background-color: rgb(209,01,70);
+    background-color: rgb(09,101,10);
+    background-color: rgb(09,01,200); */
+    background-color: rgba(09,01,200,0.84);
+
+}

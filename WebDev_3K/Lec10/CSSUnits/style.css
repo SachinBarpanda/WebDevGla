@@ -1,0 +1,26 @@
+/* div{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+} */
+
+ul>li{
+    font-size: 2em;
+}
+
+li{
+    /* font-size: 2em; */
+    font-size: 2rem;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#middle{
+    /* display: none; */
+    visibility: hidden;
+}

@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+ul{
+    text-align: right;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: lightgreen;
+}

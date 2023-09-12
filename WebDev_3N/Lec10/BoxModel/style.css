@@ -1,0 +1,42 @@
+div{
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+    /* border: 12px dashed black;
+    border: 12px dotted black;
+    border: 12px solid black;
+     */
+     /* margin: 20px;
+     margin-top: 120px;
+     margin-left: 120px; */
+     background-color: aquamarine;
+     /* margin: 30px 40px 50px 20px;
+     margin: 30px 40px ;
+     margin: 30px 40px 60px; */
+
+     /* padding: 20px;
+     padding-top: 60px;
+     padding-left: 60px;
+     padding-bottom: 40px; */
+     /* padding: 20px 30px 40px 50px;
+     padding: 20px 30px ;
+     padding: 20px 30px 40px ; */
+}
+
+/* ol>li{
+    font-size: 2em;
+} */
+li{
+    font-size: 2rem;
+}
+
+section>div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#middle{
+    /* display: none; */
+    visibility: hidden;
+}

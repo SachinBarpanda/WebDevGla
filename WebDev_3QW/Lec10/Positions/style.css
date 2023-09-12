@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#static .middle{
+    position: static;
+    top: 200px;
+    right: 100px;
+}
+
+#relative .middle{
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+}

@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    
+}
+section{
+    height: fit-content;
+}
+ul{
+    text-align: right;
+}
+nav{
+    background-color: lightcyan;
+    position: sticky;
+    top: 1px;
+}

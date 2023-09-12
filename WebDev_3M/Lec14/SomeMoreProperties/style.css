@@ -1,0 +1,30 @@
+h1{
+    font-size: 60px;
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    /* font-family: cursive; */
+    /* font-family: monospace; */
+    /* font-family: fantasy; */
+    /* font-size: 20px; */
+    font-weight: 100;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    /* text-decoration: line-through; */
+    text-shadow: 3px 3px 3px red,
+                -4px 5px 5px rgb(64, 20, 197),
+                -5px 6px 5px rgb(64, 20, 197);
+    border: 2px solid black;
+                box-shadow: 3px 3px 5px red;
+}
+p{
+    line-height: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+li{
+    list-style-type: decimal;
+    border: 2px solid black;
+    list-style-position: inside;
+    list-style: square outside;
+}

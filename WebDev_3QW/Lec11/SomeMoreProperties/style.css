@@ -1,0 +1,40 @@
+h1{
+    font-family: serif;
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    font-family: cursive;
+    /* font-family: fantasy; */
+    /* font-size: 150px; */
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+h1{
+    line-height: 2.2em;
+    letter-spacing: 0.2rem;
+    text-shadow: 3px 3px 6px red,
+     -3px 3px 6px rgb(55, 0, 255),
+     3px -3px 6px rgb(55, 0, 255),
+     -3px -3px 6px rgb(55, 0, 255)
+     ;
+}
+
+div{
+    border: 2px solid black;
+    box-shadow: -5px -5px 3px purple;
+}
+
+li{
+    border: 2px solid black;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style: square inside;
+    background-image: url('https://images.unsplash.com/photo-1615122131340-354f40914720?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVuc3BhbHNofGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');   
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+li::before{
+    width: 2px;
+}

@@ -1,0 +1,16 @@
+li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 20px; 
+}
+
+section{
+    height: fit-content;
+}
+
+nav{
+    text-align: right;
+    position:sticky;
+    top: 0px;
+    background-color: lightgreen;
+}

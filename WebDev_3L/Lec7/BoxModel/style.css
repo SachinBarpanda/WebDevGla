@@ -1,0 +1,24 @@
+div{
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    /* border: 15px solid blue; */
+    /* border: 15px dotted blue; */
+    border: 15px dashed blue;
+
+    /* margin: 80px; */
+    /* margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px; */
+    margin: 20px 30px 40px 10px;
+    margin: 20px 30px;
+    margin: 20px 30px 40px;
+
+    padding: 60px;
+    padding-top: 50px;
+
+    padding: 30px 40px 20px 60px;
+    padding: 30px 40px;
+    padding: 30px 40px 20px;
+}

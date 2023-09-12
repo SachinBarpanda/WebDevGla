@@ -2,4 +2,25 @@ div{
     width: 100px;
     height: 100px;
     margin: 10px;
+    display: inline-block;
+}
+.static #middle{
+    position: static;
+    top: 130px;
+    right: 200px;
+}
+/* 
+.relative #middle{
+    position: relative;
+    top: 40px;
+    right: 30px;
+} */
+
+.absolute{
+    position: relative;
+    border: 2px solid black;
+}
+.absolute #middle{
+    position: absolute;
+    top: 50px;
 }
