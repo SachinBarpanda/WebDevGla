@@ -18,7 +18,7 @@ div{
     right: 50px;
 } */
 
-.absolute{
+/* .absolute{
     position: relative;
     border: 2px solid black;
 }
@@ -26,4 +26,17 @@ div{
     position: absolute;
     top: 20px;
     right: 10px;
+} */
+
+/* .fixed #middle{
+    position: fixed;
+    top: 10px;
+} */
+.sticky{
+    height: 500px;
+}
+
+.sticky #middle{
+    position: sticky;
+    top: 10px;
 }

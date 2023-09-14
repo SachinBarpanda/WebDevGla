@@ -1,0 +1,7 @@
+img{
+    /* float: left; */
+    float: right;
+}
+div:nth-of-type(2){
+    clear: right;
+}

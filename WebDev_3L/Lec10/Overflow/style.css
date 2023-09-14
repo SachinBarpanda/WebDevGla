@@ -1,0 +1,35 @@
+h1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h1:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+p{
+    max-width: 900px;
+    min-width: 300px;
+    height: 100px;
+    /* background-color: blue; */
+    
+}
+
+img{
+    /* float: left; */
+    /* float: right; */
+}
+
+/* div:nth-of-type(2){
+    clear: right;
+} */
+div{
+    background-image: url("https://images.unsplash.com/photo-1694198194705-989899bf415f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* opacity: 0.5; */
+    filter: grayscale(50%);
+
+}

@@ -1,0 +1,30 @@
+h1{
+    font-size: 80px;
+    font-family: serif;
+    /* font-family: sans-serif; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    /* font-family: monospace; */
+
+    /* font-weight: 900; */
+
+    font-style: italic;
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    text-shadow: 4px 4px 2px red,
+    -4px 4px 2px blue;
+}
+
+p{
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px red;
+}
+
+li{
+    /* list-style-type: decimal; */
+    border: 2px solid black;
+    list-style-position: inside;
+    list-style: decimal inside;
+}

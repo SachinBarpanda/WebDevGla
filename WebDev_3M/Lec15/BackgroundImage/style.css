@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1693858839255-3541bb5e0947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-position: left;    
+    opacity: 0.8;
+    filter: grayscale(50%);
+}

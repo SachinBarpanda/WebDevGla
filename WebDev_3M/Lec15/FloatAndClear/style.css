@@ -1,0 +1,22 @@
+img:nth-of-type(1){
+    width: 200px;
+    float: left;
+    margin: 10px;
+    /* float: right; */
+}
+
+img:nth-of-type(2){
+    width: 400px;
+    /* float: left; */
+    margin: 10px;
+    float: right;
+}
+
+div{
+    margin: 10px;
+}
+
+div:nth-of-type(2){
+    clear: left;
+    clear: right;
+}
