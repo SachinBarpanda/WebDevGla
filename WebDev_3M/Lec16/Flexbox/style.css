@@ -1,0 +1,23 @@
+.parent{
+    width: 80vw;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}

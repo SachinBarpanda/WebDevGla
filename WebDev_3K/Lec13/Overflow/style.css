@@ -1,0 +1,20 @@
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+div{
+    /* width: 900px; */
+    max-width: 900px;
+    min-width: 300px;
+    margin: 20px;
+    height: 100px;
+    background-color: crimson;
+}
+
