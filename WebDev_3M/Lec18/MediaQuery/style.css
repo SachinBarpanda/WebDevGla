@@ -1,0 +1,32 @@
+/* @media screen and (max-width:800px){
+    h1{
+        font-style: italic;
+        font-size: 20px;
+        color: darkmagenta;
+        
+    }
+}
+@media screen and (max-width:600px){
+    h1{
+        
+        font-size: 20px;
+        color: rgb(15, 196, 18);
+
+    }
+} */
+@media screen and (min-width:600px){
+    h1{
+        
+        font-size: 20px;
+        color: rgb(234, 25, 10);
+
+    }
+}
+@media screen and (min-width:800px){
+    h1{
+        
+        font-size: 40px;
+        color: rgb(95, 18, 227);
+
+    }
+}

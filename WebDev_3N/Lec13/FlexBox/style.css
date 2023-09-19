@@ -1,0 +1,29 @@
+.parent{
+    width: 80vw;
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    align-items: flex-end;
+    align-items: flex-start;
+    /* align-items: stretch; */
+    align-content: flex-end;
+    align-content: flex-end;
+    align-content: center;
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+}
+
+div{
+    width: 100px;
+    height: 100px;
+
+}

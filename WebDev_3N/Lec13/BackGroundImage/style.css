@@ -1,0 +1,11 @@
+div{
+    background-image: url('https://images.unsplash.com/photo-1617693612355-1d93aeaf0e26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FuZXNoJTIwY2hhdHVydGhpfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 80vh;
+    background-size: cover;
+    background-size: contain;
+    background-position: top;
+    /* opacity: 0.5; */
+    /* filter: grayscale(100%); */
+}

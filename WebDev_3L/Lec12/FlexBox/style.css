@@ -40,3 +40,30 @@ div:nth-of-type(2){
     flex-shrink: 2;
     align-self: flex-start;
 }
+
+body{
+    width: 50vw;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+h1{
+    text-align: center;
+}
+
+/* @media screen and (max-width:800px) {
+    h1{
+        color: orange;
+    }
+} */
+@media screen and (orientation:landscape) {
+    h1{
+        color: blue;
+    }
+}
+@media screen and (orientation:portrait) {
+    h1{
+        color: rgb(0, 255, 34);
+    }
+}
+
