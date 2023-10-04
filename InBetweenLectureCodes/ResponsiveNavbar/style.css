@@ -1,0 +1,40 @@
+ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+/* ul{
+    text-align: right;
+} */
+
+
+
+nav{
+    background-color: lightgreen;
+    position: sticky;
+    top: 0px;
+}
+
+@media screen and (max-width:767px){
+    ul{
+        text-align: center;
+        
+    }
+    ul>li{
+        display: block;
+    }
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: blue;
+    transition: 2s;
+    transition-property: border-radius;
+}
+div:hover{
+    border-radius: 50%;
+    border: 2px solid rgb(12, 248, 40);
+    background-color: rgb(245, 22, 227);
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 80vw;
+    height: 80vh;
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: 200px 300px ;
+    grid-template-rows: 50px 100px 150px;
+    /* grid-auto-rows: 50px; */
+    grid-auto-flow: column;
+    /* grid-auto-columns: 50px; */
+}
+div{
+    border: 1px solid black;
+}
+.third{
+    /* grid-column: span 2; */
+    /* grid-column-start: 2; */
+    /* grid-column-end: 4; */
+    /* grid-row-start: 3; */
+    /* grid-row-end: 6; */
+}
+

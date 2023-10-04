@@ -1,0 +1,32 @@
+section{
+    width: 80vw;
+    height: 90vh;
+    background-color: lightblue;
+}
+div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    transition: 2s;
+}
+
+section:hover div{
+    /* margin-left:70vw; */
+    width:80vw;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+
+}
+div:nth-of-type(3){
+    transition-timing-function: ease-in-out;
+
+}
+div:nth-of-type(4){
+    transition-timing-function: linear;
+
+}

@@ -1,0 +1,31 @@
+div{
+    height: 250px;
+    width: 250px;
+}
+
+.sideA{
+    background-color: sandybrown;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.sideB{
+    background-color: lime;
+    transform: rotateY(180deg);
+}
+
+.wrapper{
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+body{
+    perspective:900px;
+}
+
+.sideA , .sideB{
+    position: absolute;   
+}
+
+.wrapper:hover{
+    transform: rotateY(180deg);
+}

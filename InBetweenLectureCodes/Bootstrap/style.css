@@ -1,0 +1,12 @@
+main img{
+    height: 80vh;
+}
+
+.card img{
+    height: 30vh;
+}
+
+.row{
+    /* display: flex; */
+    /* justify-content: space-between; */
+}

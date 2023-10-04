@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    /* font-size: 50px; */
+    margin: 20vw;
+    color: purple;
+    text-shadow: 
+    3px 2px 5px rgb(195, 128, 240),
+    2px 3px 4px rgb(242, 151, 157),
+    3px 3px 6px rgb(165, 97, 97),
+    3px 2px 5px lightcoral;
+    transition: 2s;
+}
+h1:hover{
+    /* transform: translateX(120px); */
+    /* transform: translateY(120px); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(360deg); */
+    /* transform: scaleX(1.5); */
+    /* transform: scale(1.5); */
+    /* transform: skewX(90deg); */
+    transform: skew(20deg,20deg);
+}
