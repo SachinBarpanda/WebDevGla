@@ -1,0 +1,10 @@
+nav ul li{
+    display: inline-block;
+    
+}
+nav{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+
+}

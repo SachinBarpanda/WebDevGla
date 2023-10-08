@@ -1,0 +1,46 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translateY(80vh) translateX(50vw);
+    /* transition: 2s; */
+    animation-name: heightIncre;
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+}
+/* div:hover{
+    animation-name: heightIncre;
+    animation-duration: 2s;
+} */
+/* 
+@keyframes heightIncre {
+    
+    from{
+        height: 100px;
+    }
+
+    to{
+        height: 400px;
+    }
+} */
+
+
+@keyframes heightIncre {
+    
+    0%{
+        background-color: orange;
+        transform:translateX(50vw) translateY(60vh);
+    }
+
+    50%{
+        background-color: yellow;
+        transform: translateX(50vw) translateY(40vh);
+    }
+    100%{
+        background-color: whitesmoke;
+        transform: translateX(50vw) translateY(20vh);
+    }
+}

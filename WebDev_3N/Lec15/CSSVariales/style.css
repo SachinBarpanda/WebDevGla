@@ -1,0 +1,10 @@
+:root{
+    --bg-color:rgb(0, 255, 26);
+}
+
+h1{
+    color: var(--bg-color);
+}
+h3{
+    color: var(--bg-color);
+}
