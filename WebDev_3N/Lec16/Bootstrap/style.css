@@ -1,0 +1,16 @@
+.col{
+    height: 10vh;
+    border: 5px solid white;
+}
+
+.navbar{
+    background-color: mediumturquoise;
+}
+/* 
+.home:hover{
+    font-size: 50px;
+} */
+
+.carousel-inner{
+    height: 100vh;
+}
