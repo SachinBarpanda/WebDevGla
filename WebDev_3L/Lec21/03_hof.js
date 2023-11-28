@@ -13,4 +13,5 @@ function firstStep(){
     }
     return secondStep();
 }
+
 console.log(firstStep());
