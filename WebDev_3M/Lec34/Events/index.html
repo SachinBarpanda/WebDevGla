@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button onclick="kuchKaro()" >Event Chal Raha hai</button> -->
+    <button>Event Chal Raha hai</button>
+
+    <input type="text">
+<br><br>
+    <form action="">
+        <input type="text"><br><br>
+        <input type="password"> <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+<script>
+    document.querySelector('form').addEventListener('submit',(e)=>{
+        console.log(e.target[0]);
+        console.log(e.target[1]);
+    })
+
+    let kuchKaro = ()=>{
+        console.log("Something to be done");
+    }
+
+    document.querySelector('input').addEventListener('input',(e)=>{
+        console.log(e.target.value);
+    })
+    
+    document.querySelector('button').addEventListener('click',function(){
+        kuchKaro();
+    })
+
+    
+    
+    
+
+</script>
+</html>

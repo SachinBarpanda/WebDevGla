@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="parent">
+        <div class="child">one</div>
+        <div class="child">two</div>
+        <div class="child">three</div>
+    </section>
+
+    <script>
+
+        const parent = document.querySelector('#parent');
+
+        const child = document.querySelectorAll('.child');
+
+        console.log(parent.parentElement);
+        
+        console.log(parent.children);
+    </script>
+</body>
+</html>
