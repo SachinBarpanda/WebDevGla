@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="parent">Parent
+        <div class="child">Child </div>
+    </section>
+</body>
+    <script>
+        document.querySelector('#parent').addEventListener('click',function(e){
+            e.stopPropagation();
+            console.log("Parent is selected");
+        },true)
+        document.querySelector('.child').addEventListener('click',function(e){
+            console.log("Child is selected");
+        },true)
+    </script>
+</html>

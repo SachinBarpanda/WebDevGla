@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text">
+    <button>submit</button>
+    <script>
+        $('button').on('click',()=>{
+            axios.get('https://isro.vercel.app/api/spacecrafts')
+                .then((res)=>{
+            console.log(res.data.spacecrafts[$('input').val()].name);
+        })
+            .catch()
+        })
+
+        
+    </script>
+</body>
+</html>

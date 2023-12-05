@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let spacecrafts ;
+        fetch('https://isro.vercel.app/api/spacecrafts')
+        .then(function(response){
+            return response.json();
+        })
+        .then(function(data){
+            console.log(data.spacecrafts[2].name);
+        })
+        .catch(function(err){
+            console.log(err);
+        })
+        
+            // console.log(JSON.parse(this.response).spacecrafts[2].name);
+            
+        
+    </script>
+</body>
+</html>

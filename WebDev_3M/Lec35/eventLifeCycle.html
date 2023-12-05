@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="parent">This is parent
+        <div class="child">This is child</div>
+    </section>
+
+    <script>
+        document.querySelector('#parent').addEventListener('click',(e)=>{
+            e.stopPropagation();
+            console.log("Parent is clicked");
+        },true)
+        
+        document.querySelector('.child').addEventListener('click',()=>{
+            console.log("Child is clicked");
+            
+        },true)
+
+    </script>
+</body>
+</html>

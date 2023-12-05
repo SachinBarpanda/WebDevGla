@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>jQuery for life</h1>
+
+    <section id="parent">
+        <div class="child1">One</div>
+        <div class="child">Two</div>
+        <div class="child">Three</div>
+    </section>
+
+    <a href="">Click for google     </a>
+
+    <input type="text" name="" id="input-eve">
+</body>
+
+<script>
+    $('#input-eve').on('input',function(){
+        console.log($('input').val());
+    })
+
+
+    // console.log($('.child').css('color','crimson'));
+    console.log($('.child').css(
+        {
+            color:'crimson',
+            fontSize : '2rem'
+        }
+        ));
+
+        $('.child1').text('Kuch Bhi').css('font-size','2.5rem')
+        .css('background-color','plum');
+
+        $('a').css('font-size','20px').attr('href','http://www.google.com')
+
+
+
+</script>
+</html>

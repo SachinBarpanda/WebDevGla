@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Note Taking App</h1>
+
+    <input type="text" name="" id="">
+    <button type="submit">Take Notes</button>
+
+    <ol id="parent">
+
+    </ol>
+
+    <script>
+        let input = document.querySelector('input')
+        let btn = document.querySelector('button')
+        let parent = document.querySelector('#parent');
+
+        btn.addEventListener('click',function(){
+            let li = document.createElement('li');
+            li.innerText = input.value;
+            input.value = '';
+            parent.appendChild(li);
+
+            li.addEventListener('click',function(){
+                li.remove();
+            })
+
+        })
+
+    </script>
+
+
+</body>
+</html>

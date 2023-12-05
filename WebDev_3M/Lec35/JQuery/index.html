@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="parent">
+        <div class="child1">One</div>
+        <div class="child">Two</div>
+        <div class="child">Three</div>
+    </section>
+    <br>
+    <a href="">Google</a>
+    
+    <input type="text">
+
+    <button>Laal Rang</button>
+    
+    <script>
+        $('input').keyup(()=>{
+            console.log($('input').val());
+        })
+
+        $('button').on('click',()=>{
+            $('#parent').css('color','crimson');
+        })
+
+        $('input').val('Nikhil is late')
+        let inputLeniHai = $('input').val();
+        console.log(inputLeniHai);
+        // console.log($(".child"));
+        // console.log($(".child").css('color','crimson'));
+        console.log($(".child").css(
+            {
+                color:'crimson',
+                fontSize : '2.5rem'
+            }
+        ));
+
+        $('.child1').text('Akash ka tension')
+        $('.child').html('<b>Akash ka tension</b>')
+
+        $('a').attr('href','http://www.google.com');
+        
+    </script>
+</body>
+</html>

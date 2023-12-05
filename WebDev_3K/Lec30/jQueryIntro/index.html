@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jQuery.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="parent">THis is the Parent
+        <div class="child">one</div>
+        <div class="child">
+            <span style="display: none;">Two Again</span>
+            two</div>
+        <div class="child">three</div>
+
+        <a href="">Google</a>
+
+        <input type="text">
+
+        <button>Laal Rang</button>
+    </section>
+
+
+    <script>
+        $('input').keyup(()=>{
+            console.log($('input').val());
+        })
+
+        $('button').on('click',()=>{
+            $('#parent').css('color','crimson');
+        })
+
+        $('input').val('Nikhil is late')
+        let inputLeniHai = $('input').val();
+        console.log(inputLeniHai);
+
+        $('a').attr('href','http://google.com');
+
+        console.log($('#parent').css(
+            {
+                // backgroundColor:'crimson',
+                fontSize : '1.5rem'
+            }
+        ))
+        ;
+        $('.child').text('Bhanyankar');
+        $('.child').first().html('<b>New Element</b>').css('color','white');
+        // let newCHild = $('.child').first();
+        // newCHild.html('<b>New Element</b>');
+
+
+
+
+    </script>
+</body>
+</html>
