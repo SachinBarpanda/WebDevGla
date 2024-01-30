@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    
+}
+
+.output{
+    padding-left: 25px;
+}
+
+.take-output{
+    padding-left: 25px;
+}
+
+body{
+    margin: auto auto;
+    width: 320px;
+    height: 400px;
+}
+h6{
+    margin: 0;
+    padding-left: 25px;
+}
+
+span{
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
